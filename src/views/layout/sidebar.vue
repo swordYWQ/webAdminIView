@@ -1,7 +1,7 @@
 <template>
   <div class="sidebar-menu-con" :style="{width: hideMenu?'60px':'200px', overflow: hideMenu ? 'visible' : 'auto', background: $store.state.menuTheme === 'dark'?'#495060':'white'}">
     <div class="logo-con">
-        <img src="~@/assets/images/logo.png" key="max-logo" />
+        <img src="~@/assets/logo.png" key="max-logo" />
         <!-- v-show="!hideMenu"<img v-show="hideMenu" src="~@/assets/images/logo_min.png" key="min-logo" /> -->
     </div>
     <!-- <sidebar-menu v-if="!hideMenuText" :menuList="menuList" :iconSize="14"/> -->
